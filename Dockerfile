@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 RUN npm install
 COPY . /usr/src/app
-ENV PORT 80
+ENV PORT 8080
 EXPOSE 8080
 ENTRYPOINT node build/dev-server.js
