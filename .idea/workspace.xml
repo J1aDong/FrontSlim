@@ -30,8 +30,18 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="154">
               <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="154">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+=======
+            <state relative-caret-position="176">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+>>>>>>> parent of 9d84a60... change node version
+>>>>>>> Revert "change node version"
               <folding />
             </state>
           </provider>
@@ -225,12 +235,28 @@
       <option name="presentableId" value="Default" />
       <updated>1494821745704</updated>
       <workItem from="1494821748414" duration="4783000" />
+<<<<<<< HEAD
       <workItem from="1494903266974" duration="2144000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1494903266974" duration="2144000" />
+=======
+      <workItem from="1494903266974" duration="1612000" />
+>>>>>>> parent of 9d84a60... change node version
+>>>>>>> Revert "change node version"
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="6927000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="6927000" />
+=======
+    <option name="totallyTimeSpent" value="6395000" />
+>>>>>>> parent of 9d84a60... change node version
+>>>>>>> Revert "change node version"
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="22" width="1374" height="858" extended-state="0" />
@@ -285,8 +311,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="154">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+=======
+        <state relative-caret-position="176">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+>>>>>>> parent of 9d84a60... change node version
+>>>>>>> Revert "change node version"
           <folding />
         </state>
       </provider>
