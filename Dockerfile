@@ -1,6 +1,8 @@
 FROM daocloud.io/nginx
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+RUN export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 RUN nvm install node
 
 RUN mkdir -p /usr/src/app
