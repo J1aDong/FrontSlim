@@ -1,7 +1,7 @@
-FROM daocloud.io/nginx
+FROM node:6-onbuild
+MAINTAINER 991383877@qq.com
 
-RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-RUN install node
+ENV HTTP_PORT 8080
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
@@ -11,4 +11,4 @@ COPY . /usr/src/app
 
 EXPOSE 8080
 
-CMD sed -i "s/ContainerID: /ContainerID: "$(hostname)"/g" /usr/src/app/index.html && nginx -g "daemon off;" && npm start
+CMD ["npm","start"]
