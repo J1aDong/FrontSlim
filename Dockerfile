@@ -1,8 +1,7 @@
 FROM daocloud.io/nginx
 
-RUN apt-get update
-RUN apt-get install -y n
-RUN n latest
+RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+RUN install node
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
