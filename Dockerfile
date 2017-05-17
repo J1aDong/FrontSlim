@@ -1,8 +1,7 @@
 FROM daocloud.io/nginx
 
-RUN sudo apt-get update
+RUN apt-get update
 RUN apt-get install -y nodejs
-RUN apt-get install npm
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
